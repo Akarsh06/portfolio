@@ -1,0 +1,18 @@
+.footer {
+  margin: 50px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .footer-note {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .footer-msg {
+    text-align: center;
+    font-size: 14px;
+  }
+}

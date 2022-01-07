@@ -1,0 +1,42 @@
+.section-project {
+  margin-bottom: 90px;
+  .project-heading {
+    color: #000;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+  }
+
+  .project-stack {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project-box {
+      border-radius: 12px;
+      padding: 30px;
+      line-height: 24px;
+      width: 31%;
+      height: 207px;
+      margin-bottom: 35px;
+      box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 50%), 0 0 0 1px #e6ecf8;
+      color: #141c3a;
+      text-align: center;
+      margin-right: 2%;
+
+      .project-title {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .project-description {
+        margin: 20px 0;
+      }
+
+      .project-link i {
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -11,99 +11,82 @@
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/88026c2a6d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/main.css">
   <title>Akarsh Goel</title>
 </head>
 
 <body>
   <header class="header">
     <nav>
-      <ul class="navbar">
-        <li class="navbar-item"><a href="#">About</a></li>
-        <li class="navbar-item"><a href="#">Skills</a></li>
-        <li class="navbar-item"><a href="#">Projects</a></li>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
       </ul>
     </nav>
   </header>
-  <aside class="social-links">
-    <ul class="links-list">
-      <li class="social-list-item">
-        <a href="#" class="social-icons"><i class="fab fa-twitter fa-fw"></i></a>
-      </li>
-      <li class="social-list-item">
-        <a href="#" class="social-icons"><i class="fab fa-github fa-fw"></i></a></a>
-      </li>
-      <li class="social-list-item">
-        <a href="#" class="social-icons"><i class="fab fa-linkedin fa-fw"></i></a>
-      </li>
-      <li class="social-list-item">
-        <a href="#" class="social-icons"><i class="fas fa-envelope fa-fw"></i></a>
-      </li>
-    </ul>
-  </aside>
-  <aside class="get-resume">
-    <ul class="links-list">
-      <li class="social-list-item">
-        <a href="#" class="resume-text">Get Resume</a>
-      </li>
-    </ul>
-  </aside>
-  <div class="container">
 
+  <div class="container">
     <section class="section-profile">
-      <div class="profile-description">
-        <p class="description">Hi, my name is</p>
-        <h1 class="name">Akarsh Goel</h1>
-        <h5 class="designation">Front-end Developer</h5>
-        <p class="description">I design and build beautifully simple things, and I love what I do.</p>
-        <button class="btn-mail">Get in touch</button>
+      <div class="profile-detail">
+        <p class="profile-prename">Hi, I am is</p>
+        <h1 class="profile-name">Akarsh Goel</h1>
+        <h5 class="profile-designation">Front-end Developer</h5>
+        <p class="profile-description">I design and build beautifully simple things, and I love what I do.</p>
+        <button class="profile-btn btn-mail">Get in touch</button>
       </div>
       <div class="profile-img">
         <img src="./asset/IMG_20190811_183902.jpg" alt="">
       </div>
     </section>
-    <section class="section-skills">
+    <section class="section-skill">
       <h1 class="skill-heading">Skills</h1>
-      <div class="skill-set">
-        <span class="skill-item"><i class="fab fa-html5 logo-html"></i></span>
-        <span class="skill-item"><i class="fab fa-css3-alt logo-css"></i></span>
-        <span class="skill-item"><i class="fab fa-bootstrap logo-bootstrap"></i></span>
-        <span class="skill-item"><i class="fab fa-sass logo-sass"></i></span>
-        <span class="skill-item"><i class="fab fa-js-square logo-js"></i></span>
+      <div class="skill-stack">
+        <span class="stack-item"><i class="fab fa-html5 logo-html"></i></span>
+        <span class="stack-item"><i class="fab fa-css3-alt logo-css"></i></span>
+        <span class="stack-item"><i class="fab fa-bootstrap logo-bootstrap"></i></span>
+        <span class="stack-item"><i class="fab fa-sass logo-sass"></i></span>
+        <span class="stack-item"><i class="fab fa-js-square logo-js"></i></span>
       </div>
     </section>
-    <section class="section-projects">
+    <section class="section-project">
       <h1 class="project-heading">Projects</h1>
       <div class="project-stack">
-        <div class="project">
-          <h2 class="project-name">Personal Portfolio</h2>
-          <p class="project-description">Creating a personal portfolio to showcase my work for better approach.</p>
-          <div class="project-link"><i class="fas fa-tools fa-fw"></i>In development</div>
-        </div>
-        <div class="project">
-          <h2 class="project-name">Personal Portfolio</h2>
-          <p class="project-description">Creating a personal portfolio to showcase my work for better approach.</p>
-          <div class="project-link"><i class="fas fa-tools fa-fw"></i>In development</div>
-        </div>
-        <div class="project">
-          <h2 class="project-name">Personal Portfolio</h2>
-          <p class="project-description">Creating a personal portfolio to showcase my work for better approach.</p>
-          <div class="project-link"><i class="fas fa-tools fa-fw"></i>In development</div>
-        </div>
-        <div class="project">
-          <h2 class="project-name">Personal Portfolio</h2>
+        <div class="project-box">
+          <h2 class="project-title">Personal Portfolio</h2>
           <p class="project-description">Creating a personal portfolio to showcase my work for better approach.</p>
           <div class="project-link"><i class="fas fa-tools fa-fw"></i>In development</div>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <div class="thanks-note">Thank you for visiting! 😀</div>
+      <div class="footer-note">Thank you for visiting! 😀</div>
       <p class="footer-msg">Created with ❤️ by Akarsh Goel ©️ 2022</p>
     </footer>
-
   </div>
-
+  <aside class="social-link-position social-link-left">
+    <ul class="social-link">
+      <li class="social-link-item">
+        <a href="#" class="social-item-link"><i class="fab fa-twitter fa-fw"></i></a>
+      </li>
+      <li class="social-link-item">
+        <a href="#" class="social-item-link"><i class="fab fa-github fa-fw"></i></a></a>
+      </li>
+      <li class="social-link-item">
+        <a href="#" class="social-item-link"><i class="fab fa-linkedin fa-fw"></i></a>
+      </li>
+      <li class="social-link-item">
+        <a href="#" class="social-item-link"><i class="fas fa-envelope fa-fw"></i></a>
+      </li>
+    </ul>
+  </aside>
+  <aside class="social-link-position social-link-right">
+    <ul class="social-link">
+      <li class="social-link-item">
+        <a href="#" class="social-link-text">Get Resume</a>
+      </li>
+    </ul>
+  </aside>
 </body>
 
 </html>
