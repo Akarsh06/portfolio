@@ -1,8 +1,8 @@
 .section-skill {
-  margin-bottom: 120px;
+  padding: 60px 0;
 
   .skill-heading {
-    color: #000;
+    color: $skill-heading-clr;
     font-size: 36px;
     line-height: 40px;
     font-weight: 500;
@@ -23,23 +23,23 @@
         font-size: 56px;
       }
       .logo-css {
-        color: #3595cf;
+        color: $logo-css-cls;
       }
 
       .logo-html {
-        color: #dd4b25;
+        color: $logo-html-cls;
       }
 
       .logo-bootstrap {
-        color: #8a0afc;
+        color: $logo-bootstrap-cls;
       }
 
       .logo-sass {
-        color: #c76494;
+        color: $logo-sass-cls;
       }
 
       .logo-js {
-        color: #e8d44d;
+        color: $logo-js-cls;
       }
     }
   }
