@@ -22,9 +22,9 @@
     content: "";
     display: block;
     width: 1px;
-    height: 120px;
+    height: 90px;
     margin: 0px auto;
-    background-color: #000;
+    background-color: $social-link-bottom-link-clr;
   }
 
   .social-item-link {
@@ -38,6 +38,14 @@
     i {
       font-size: 20px;
     }
+
+    .fa-twitter {
+      color: $icon-twitter-clr;
+    }
+
+    .fa-linkedin {
+      color: $icon-linkedin-clr;
+    }
   }
 }
 
@@ -46,9 +54,8 @@
   right: 100px;
 
   .social-link-text {
-    margin: 20px auto;
     padding: 10px;
-    color: #333;
+    color: $social-link-text-clr;
     letter-spacing: 0.1em;
     writing-mode: vertical-rl;
     text-decoration: none;

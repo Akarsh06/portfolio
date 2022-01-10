@@ -1,7 +1,8 @@
 .section-project {
-  margin-bottom: 90px;
+  padding: 60px 0;
+
   .project-heading {
-    color: #000;
+    color: $project-heading-clr;
     font-size: 36px;
     line-height: 40px;
     font-weight: 500;
@@ -21,7 +22,7 @@
       height: 207px;
       margin-bottom: 35px;
       box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 50%), 0 0 0 1px #e6ecf8;
-      color: #141c3a;
+      color: $project-box-clr;
       text-align: center;
       margin-right: 2%;
 

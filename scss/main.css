@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -25,8 +29,29 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 50px auto 0 auto;
-  padding: 10px;
+  padding: 0 10px;
   color: #333;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.btn-outline-primary {
+  color: #333;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .header {
@@ -51,7 +76,6 @@ body {
 }
 
 .navbar-nav {
-  width: 400px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -70,10 +94,21 @@ body {
 .navbar-nav .nav-item .nav-link {
   color: #333;
   text-decoration: none;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.navbar-nav .nav-item .btn-resume {
+  height: 30px;
+  width: 120px;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
 }
 
 .section-profile {
-  margin: 20px 0 120px 0;
+  padding: 60px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,7 +128,7 @@ body {
 }
 
 .section-profile .profile-detail .profile-designation {
-  color: #333333;
+  color: #333;
   font-size: 32px;
   line-height: 1;
   font-weight: 400;
@@ -102,7 +137,7 @@ body {
 
 .section-profile .profile-detail .profile-prename,
 .section-profile .profile-detail .profile-description {
-  color: #444444;
+  color: #444;
   font-size: 20px;
   line-height: 26px;
   font-weight: 400;
@@ -112,26 +147,21 @@ body {
   height: 50px;
   width: 150px;
   margin-top: 50px;
-  border: 2px solid #333;
-  border-radius: 5px;
-  background: #fff;
-  color: #333;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
-  cursor: pointer;
 }
 
 .section-profile .profile-img img {
-  height: 165px;
-  width: 165px;
+  height: 275px;
+  width: 275px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .section-skill {
-  margin-bottom: 120px;
+  padding: 60px 0;
 }
 
 .section-skill .skill-heading {
@@ -182,7 +212,7 @@ body {
 }
 
 .section-project {
-  margin-bottom: 90px;
+  padding: 60px 0;
 }
 
 .section-project .project-heading {
@@ -230,7 +260,7 @@ body {
 }
 
 .footer {
-  margin: 50px 0 30px;
+  padding: 60px 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,7 +319,7 @@ body {
   content: "";
   display: block;
   width: 1px;
-  height: 120px;
+  height: 90px;
   margin: 0px auto;
   background-color: #000;
 }
@@ -307,13 +337,20 @@ body {
   font-size: 20px;
 }
 
+.social-link .social-item-link .fa-twitter {
+  color: #4da6e9;
+}
+
+.social-link .social-item-link .fa-linkedin {
+  color: #0073b1;
+}
+
 .social-link-right {
   left: auto;
   right: 100px;
 }
 
 .social-link-right .social-link-text {
-  margin: 20px auto;
   padding: 10px;
   color: #333;
   letter-spacing: 0.1em;

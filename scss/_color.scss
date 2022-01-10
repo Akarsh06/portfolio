@@ -1,0 +1,44 @@
+$white: #fff;
+
+$black1: #000;
+$black2: #333;
+$black3: #444;
+
+$gray1: #f9fafb;
+
+$blue1: #141c3a;
+
+//base
+$body-bgcolor: $gray1;
+
+$container-clr: $black2;
+
+$btn-outline-primary-clr: $black2;
+$btn-outline-primary-bgcolor: $white;
+$btn-outline-primary-bdr: 2px solid $black2;
+
+//header
+$header-bgcolor: $white;
+$nav-link-clr: $black2;
+
+//section-profile
+$profile-designation-clr: $black2;
+$profile-prename-description-clr: $black3;
+
+//section-skills
+$skill-heading-clr: $black1;
+$logo-css-cls: #3595cf;
+$logo-html-cls: #dd4b25;
+$logo-bootstrap-cls: #8a0afc;
+$logo-sass-cls: #c76494;
+$logo-js-cls: #e8d44d;
+
+//section-work
+$project-heading-clr: $black1;
+$project-box-clr: $blue1;
+
+//social-links
+$social-link-bottom-link-clr: $black1;
+$icon-twitter-clr: #4da6e9;
+$icon-linkedin-clr: #0073b1;
+$social-link-text-clr: $black2;
