@@ -1,0 +1,51 @@
+@media screen and (max-width: 480px) {
+  .navbar-nav {
+    .nav-item {
+      margin-right: 0;
+    }
+  }
+  .section-profile {
+    flex-direction: column;
+    .profile-img {
+      order: -1;
+      img {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .section-skill {
+    .skill-stack {
+      flex-wrap: wrap;
+
+      .stack-item {
+        margin-right: 25px;
+        margin-bottom: 40px;
+        padding: 10px;
+
+        i {
+          font-size: 45px;
+        }
+      }
+    }
+  }
+  .section-project {
+    .project-stack {
+      .project-box {
+        width: 100%;
+      }
+    }
+  }
+  .social-link {
+    display: none;
+  }
+  .section-profile,
+  .section-skill,
+  .section-project {
+    padding: 30px 0;
+  }
+  .footer {
+    padding-top: 30px;
+  }
+}

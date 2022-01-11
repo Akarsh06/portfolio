@@ -271,7 +271,6 @@ body {
   padding: 30px;
   line-height: 24px;
   width: 31%;
-  height: 207px;
   margin-bottom: 35px;
   -webkit-box-shadow: 0px 1px 4px 0px #b7b7b7;
           box-shadow: 0px 1px 4px 0px #b7b7b7;
@@ -320,6 +319,7 @@ body {
   font-size: 32px;
   font-weight: 400;
   color: #f76c6c;
+  text-align: center;
 }
 
 .footer .footer-msg {
@@ -412,5 +412,53 @@ body {
 .social-link-right .social-link-text:hover, .social-link-right .social-link-text:active {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-nav .nav-item {
+    margin-right: 0;
+  }
+  .section-profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-profile .profile-img {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .section-profile .profile-img img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+  }
+  .section-skill .skill-stack {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-skill .skill-stack .stack-item {
+    margin-right: 25px;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  .section-skill .skill-stack .stack-item i {
+    font-size: 45px;
+  }
+  .section-project .project-stack .project-box {
+    width: 100%;
+  }
+  .social-link {
+    display: none;
+  }
+  .section-profile,
+  .section-skill,
+  .section-project {
+    padding: 30px 0;
+  }
+  .footer {
+    padding-top: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
