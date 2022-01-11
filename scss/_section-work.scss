@@ -21,18 +21,23 @@
       width: 31%;
       height: 207px;
       margin-bottom: 35px;
-      box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 50%), 0 0 0 1px #e6ecf8;
-      color: $project-box-clr;
+      box-shadow: $project-box-shadow;
       text-align: center;
       margin-right: 2%;
+      background-color: $project-bgcolor;
+      background-image: $project-bgimg;
+      background-size: 22px 22px;
+      background-position: 0 0, 11px 11px;
 
       .project-title {
         font-size: 20px;
         font-weight: 500;
+        color: $project-title-clr;
       }
 
       .project-description {
         margin: 20px 0;
+        color: $project-description-clr;
       }
 
       .project-link i {

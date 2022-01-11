@@ -1,44 +1,74 @@
 $white: #fff;
 
-$black1: #000;
-$black2: #333;
-$black3: #444;
+// $gray1: #8cbdbc29;
 
-$gray1: #f9fafb;
+// $primary2: #555;
+// $primary1: #f76c6c;
+// $primary: #374785;
 
-$blue1: #141c3a;
+$gray1: #fff;
 
+$primary: #374785;
+$primary1: #24305e;
+$primary2: #555;
+
+$secondary: #f76c6c;
+
+$bg-pattern-dark: radial-gradient(#5e63bb 0.55px, transparent 0.55px),
+  radial-gradient(#7c80d4 0.55px, #f4f6f8 0.55px);
+$bg-pattern-light: radial-gradient(#5e63bb 0.55px, transparent 0.55px),
+  radial-gradient(#7c80d4 0.55px, #fff 0.55px);
+$box-shadow: 0px 1px 4px 0px #b7b7b7;
+$bg-pattern-hover: radial-gradient(#5e63bb 0.55px, transparent 0.55px),
+  radial-gradient(#7c80d4 0.55px, #deecfa 0.55px);
 //base
+$body-clr: $primary;
 $body-bgcolor: $gray1;
+$body-bgimg: $bg-pattern-dark;
 
-$container-clr: $black2;
-
-$btn-outline-primary-clr: $black2;
+$btn-primary-clr: $white;
+$btn-primary-bgcolor: $primary;
+$btn-primary-bdr: $primary;
+$btn-outline-primary-clr: $primary;
 $btn-outline-primary-bgcolor: $white;
-$btn-outline-primary-bdr: 2px solid $black2;
+$btn-outline-primary-bdr: 2px solid $primary;
+$btn-box-shadow: $box-shadow;
+$btn-bgimg: $bg-pattern-light;
+$btn-bgimg-hover: $bg-pattern-hover;
 
 //header
 $header-bgcolor: $white;
-$nav-link-clr: $black2;
+$nav-link-clr: $primary;
+$nav-link-bdr: 2px solid transparent;
+$nav-link-hover-bdr: 2px solid $primary1;
 
 //section-profile
-$profile-designation-clr: $black2;
-$profile-prename-description-clr: $black3;
+$profile-name-clr: $primary1;
+$profile-designation-clr: $secondary;
+$profile-prename-description-clr: $primary2;
 
 //section-skills
-$skill-heading-clr: $black1;
+$skill-heading-clr: $primary1;
 $logo-css-cls: #3595cf;
 $logo-html-cls: #dd4b25;
 $logo-bootstrap-cls: #8a0afc;
 $logo-sass-cls: #c76494;
 $logo-js-cls: #e8d44d;
+$skill-bgclr: $white;
+$skill-bgimg: $bg-pattern-light;
 
 //section-work
-$project-heading-clr: $black1;
-$project-box-clr: $blue1;
+$project-heading-clr: $primary1;
+$project-title-clr: $secondary;
+$project-description-clr: $primary2;
+$project-box-shadow: $box-shadow;
+$project-bgcolor: $white;
+$project-bgimg: $bg-pattern-light;
 
 //social-links
-$social-link-bottom-link-clr: $black1;
+$social-link-bottom-link-clr: $primary;
 $icon-twitter-clr: #4da6e9;
 $icon-linkedin-clr: #0073b1;
-$social-link-text-clr: $black2;
+$social-link-text-clr: $primary;
+
+$footer-note-clr: $secondary;

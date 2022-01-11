@@ -34,6 +34,12 @@
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
+    transition: all 0.1s ease-in;
+
+    &:hover,
+    &:active {
+      transform: translateY(-3px);
+    }
 
     i {
       font-size: 20px;
@@ -59,5 +65,11 @@
     letter-spacing: 0.1em;
     writing-mode: vertical-rl;
     text-decoration: none;
+    transition: all 0.1s ease-in;
+
+    &:hover,
+    &:active {
+      transform: translateY(-3px);
+    }
   }
 }
