@@ -2,7 +2,7 @@
   width: 100%;
   height: 50px;
   padding: 0 50px;
-  background-color: $header-bgcolor;
+  // background-color: $header-bgcolor;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.03%);
   position: fixed;
   top: 0;
@@ -10,6 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #ffffff;
+  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px),
+    radial-gradient(#7c80d4 0.55px, #fff 0.55px);
+  background-size: 22px 22px;
+  background-position: 0 0, 11px 11px;
 }
 
 .navbar-nav {
@@ -27,6 +33,12 @@
       color: $nav-link-clr;
       text-decoration: none;
       vertical-align: -webkit-baseline-middle;
+      border-bottom: $nav-link-bdr;
+      transition: all 0.2s ease-in;
+      &:hover,
+      &:active {
+        border-bottom: $nav-link-hover-bdr;
+      }
     }
 
     .btn-resume {
