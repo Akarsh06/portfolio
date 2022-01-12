@@ -52,13 +52,10 @@ body {
   color: $btn-outline-primary-clr;
   border: $btn-outline-primary-bdr;
   background-color: $btn-outline-primary-bgcolor;
-  background-image: $btn-bgimg;
-  background-size: 22px 22px;
-  background-position: 0 0, 11px 11px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover,
   &:active {
-    background-image: $btn-bgimg-hover;
+    background-color: $btn-hover-bgcolor;
   }
 }

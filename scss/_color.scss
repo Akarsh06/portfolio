@@ -33,8 +33,7 @@ $btn-outline-primary-clr: $primary;
 $btn-outline-primary-bgcolor: $white;
 $btn-outline-primary-bdr: 2px solid $primary;
 $btn-box-shadow: $box-shadow;
-$btn-bgimg: $bg-pattern-light;
-$btn-bgimg-hover: $bg-pattern-hover;
+$btn-hover-bgcolor: #deecfa;
 
 //header
 $header-bgcolor: $white;
@@ -49,13 +48,13 @@ $profile-prename-description-clr: $primary2;
 
 //section-skills
 $skill-heading-clr: $primary1;
+$stack-item-name-clr: $primary2;
 $logo-css-cls: #3595cf;
 $logo-html-cls: #dd4b25;
 $logo-bootstrap-cls: #8a0afc;
 $logo-sass-cls: #c76494;
 $logo-js-cls: #e8d44d;
 $skill-bgclr: $white;
-$skill-bgimg: $bg-pattern-light;
 
 //section-work
 $project-heading-clr: $primary1;
@@ -63,12 +62,12 @@ $project-title-clr: $secondary;
 $project-description-clr: $primary2;
 $project-box-shadow: $box-shadow;
 $project-bgcolor: $white;
-$project-bgimg: $bg-pattern-light;
 
 //social-links
 $social-link-bottom-link-clr: $primary;
 $icon-twitter-clr: #4da6e9;
 $icon-linkedin-clr: #0073b1;
+$icon-mail-clr:#d44636;
 $social-link-text-clr: $primary;
 
 $footer-note-clr: $secondary;

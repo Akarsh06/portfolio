@@ -19,8 +19,13 @@
       box-shadow: 0 9.8px 18.2px rgba(183, 183, 183, 30%);
       border-radius: 8px;
       background-color: $skill-bgclr;
-      background-image: $skill-bgimg;
-      background-position: 0 0, 11px 11px;
+      text-align: center;
+      min-width: 90px;
+
+      .stack-item-name {
+        margin-top: 5px;
+        color: $stack-item-name-clr;
+      }
 
       i {
         font-size: 56px;

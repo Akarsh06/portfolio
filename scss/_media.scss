@@ -1,4 +1,39 @@
+@media screen and (max-width: 1024px){
+  .social-link-position {
+    width: 100%;
+    left: 0;
+    height: 50px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.03%);
+  }
+
+  .social-link {
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+    &:after {
+      display: none;
+    }
+
+    .mail{
+      display: block;
+    }
+  }
+
+  .social-link-right{
+    display: none;
+  }
+  .footer {
+    padding-top: 0px;
+    margin-bottom: 65px;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  body {
+    padding: 0 20px;
+  }
   .navbar-nav {
     .nav-item {
       margin-right: 0;
@@ -14,22 +49,46 @@
         margin-bottom: 50px;
       }
     }
+    .profile-detail {
+      .profile-name {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 54px;
+      }
+      .profile-designation {
+        font-size: 24px;
+      }
+    }
+  }
+  .section-skill{
+    .skill-heading{
+      margin-bottom: 40px;
+    }
+  }
+  .section-project{
+    .project-heading{
+      margin-bottom: 40px;
+    }
   }
   .section-skill {
     .skill-stack {
       flex-wrap: wrap;
 
       .stack-item {
-        margin-right: 25px;
+        margin-right: 20px;
         margin-bottom: 40px;
         padding: 10px;
 
         i {
           font-size: 45px;
         }
+        &:last-child{
+          margin-bottom: 0;
+        }
       }
     }
   }
+  
   .section-project {
     .project-stack {
       .project-box {
@@ -37,15 +96,13 @@
       }
     }
   }
-  .social-link {
-    display: none;
-  }
+  
   .section-profile,
   .section-skill,
   .section-project {
-    padding: 30px 0;
+    padding: 65px 0 0 0;
   }
-  .footer {
-    padding-top: 30px;
-  }
+  
+
+
 }
