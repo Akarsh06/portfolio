@@ -213,7 +213,7 @@ body {
   background-color: #fff;
   text-align: center;
   min-width: 90px;
-  height: 87px;
+  height: 100px;
 }
 
 .section-skill .skill-stack .stack-item .stack-item-name {
@@ -487,9 +487,6 @@ body {
   .section-skill .skill-heading {
     margin-bottom: 40px;
   }
-  .section-project .project-heading {
-    margin-bottom: 40px;
-  }
   .section-skill .skill-stack {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -498,12 +495,16 @@ body {
     margin-right: 20px;
     margin-bottom: 40px;
     padding: 10px;
+    height: 87px;
   }
   .section-skill .skill-stack .stack-item i {
     font-size: 45px;
   }
   .section-skill .skill-stack .stack-item:last-child {
     margin-bottom: 0;
+  }
+  .section-project .project-heading {
+    margin-bottom: 40px;
   }
   .section-project .project-stack .project-box {
     width: 100%;

@@ -12,7 +12,7 @@
     justify-content: space-around;
     flex-direction: row;
     height: 100%;
-    
+
     &:after {
       display: none;
     }
@@ -61,17 +61,11 @@
       }
     }
   }
-  .section-skill{
+  
+  .section-skill {
     .skill-heading{
       margin-bottom: 40px;
     }
-  }
-  .section-project{
-    .project-heading{
-      margin-bottom: 40px;
-    }
-  }
-  .section-skill {
     .skill-stack {
       flex-wrap: wrap;
 
@@ -79,6 +73,7 @@
         margin-right: 20px;
         margin-bottom: 40px;
         padding: 10px;
+        height: 87px;
 
         i {
           font-size: 45px;
@@ -91,6 +86,9 @@
   }
   
   .section-project {
+    .project-heading{
+      margin-bottom: 40px;
+    }
     .project-stack {
       .project-box {
         width: 100%;
