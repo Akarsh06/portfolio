@@ -63,20 +63,17 @@ body {
   color: #374785;
   border: 2px solid #374785;
   background-color: #fff;
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px), radial-gradient(#7c80d4 0.55px, #fff 0.55px);
-  background-size: 22px 22px;
-  background-position: 0 0, 11px 11px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:active {
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px), radial-gradient(#7c80d4 0.55px, #deecfa 0.55px);
+  background-color: #deecfa;
 }
 
 .header {
   width: 100%;
-  height: 50px;
+  height: 60px;
   padding: 0 50px;
   -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.03);
           box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.03);
@@ -92,10 +89,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px), radial-gradient(#7c80d4 0.55px, #fff 0.55px);
-  background-size: 22px 22px;
-  background-position: 0 0, 11px 11px;
+  background-color: #fff;
 }
 
 .navbar-nav {
@@ -217,8 +211,13 @@ body {
           box-shadow: 0 9.8px 18.2px #b7b7b7;
   border-radius: 8px;
   background-color: #fff;
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px), radial-gradient(#7c80d4 0.55px, #fff 0.55px);
-  background-position: 0 0, 11px 11px;
+  text-align: center;
+  min-width: 90px;
+}
+
+.section-skill .skill-stack .stack-item .stack-item-name {
+  margin-top: 5px;
+  color: #555;
 }
 
 .section-skill .skill-stack .stack-item i {
@@ -277,9 +276,6 @@ body {
   text-align: center;
   margin-right: 2%;
   background-color: #fff;
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px), radial-gradient(#7c80d4 0.55px, #fff 0.55px);
-  background-size: 22px 22px;
-  background-position: 0 0, 11px 11px;
 }
 
 .section-project .project-stack .project-box .project-title {
@@ -364,6 +360,10 @@ body {
   background-color: #374785;
 }
 
+.social-link .mail {
+  display: none;
+}
+
 .social-link .social-item-link {
   padding: 10px;
   display: inline-block;
@@ -392,6 +392,10 @@ body {
   color: #0073b1;
 }
 
+.social-link .social-item-link .fa-envelope {
+  color: #d44636;
+}
+
 .social-link-right {
   left: auto;
   right: 100px;
@@ -414,7 +418,44 @@ body {
           transform: translateY(-3px);
 }
 
+@media screen and (max-width: 1024px) {
+  .social-link-position {
+    width: 100%;
+    left: 0;
+    height: 50px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    -webkit-box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.03);
+            box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.03);
+  }
+  .social-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100%;
+  }
+  .social-link:after {
+    display: none;
+  }
+  .social-link .mail {
+    display: block;
+  }
+  .social-link-right {
+    display: none;
+  }
+  .footer {
+    padding-top: 0px;
+    margin-bottom: 65px;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  body {
+    padding: 0 20px;
+  }
   .navbar-nav .nav-item {
     margin-right: 0;
   }
@@ -434,31 +475,42 @@ body {
     width: 150px;
     margin-bottom: 50px;
   }
+  .section-profile .profile-detail .profile-name {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  .section-profile .profile-detail .profile-designation {
+    font-size: 24px;
+  }
+  .section-skill .skill-heading {
+    margin-bottom: 40px;
+  }
+  .section-project .project-heading {
+    margin-bottom: 40px;
+  }
   .section-skill .skill-stack {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .section-skill .skill-stack .stack-item {
-    margin-right: 25px;
+    margin-right: 20px;
     margin-bottom: 40px;
     padding: 10px;
   }
   .section-skill .skill-stack .stack-item i {
     font-size: 45px;
   }
+  .section-skill .skill-stack .stack-item:last-child {
+    margin-bottom: 0;
+  }
   .section-project .project-stack .project-box {
     width: 100%;
-  }
-  .social-link {
-    display: none;
   }
   .section-profile,
   .section-skill,
   .section-project {
-    padding: 30px 0;
-  }
-  .footer {
-    padding-top: 30px;
+    padding: 65px 0 0 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

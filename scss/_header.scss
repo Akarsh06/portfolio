@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 50px;
+  height: 60px;
   padding: 0 50px;
   // background-color: $header-bgcolor;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.03%);
@@ -10,12 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: #ffffff;
-  background-image: radial-gradient(#5e63bb 0.55px, transparent 0.55px),
-    radial-gradient(#7c80d4 0.55px, #fff 0.55px);
-  background-size: 22px 22px;
-  background-position: 0 0, 11px 11px;
+  background-color: $header-bgcolor;
 }
 
 .navbar-nav {
